@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring_boot_shopDEV
+  profiles:
+    active:
+server:
+  port:8001
+player:
+  username: dinhpham
+  age: 40
+  address: HCM
+
+database:
+  host: host
+  username: username
+  port: 3306
+  password: password
