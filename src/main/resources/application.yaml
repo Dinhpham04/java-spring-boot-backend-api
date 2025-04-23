@@ -1,17 +1,17 @@
 spring:
   application:
     name: spring_boot_shopDEV
-  profiles:
-    active:
-server:
-  port:8001
-player:
-  username: dinhpham
-  age: 40
-  address: HCM
-
-database:
-  host: host
-  username: username
-  port: 3306
-  password: password
+  datasource:
+    url: jdbc:mysql://localhost:8811/shopDEVJava
+    username: root
+    password: dinhpham
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true

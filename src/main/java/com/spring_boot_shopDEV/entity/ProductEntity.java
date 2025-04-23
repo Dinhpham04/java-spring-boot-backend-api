@@ -1,6 +1,5 @@
 package com.spring_boot_shopDEV.entity;
 
-import jdk.jfr.DataAmount;
 import lombok.Getter;
 import lombok.Setter;
 

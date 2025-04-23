@@ -15,7 +15,7 @@ public class ProductRepositoryImpl implements ProductRepository {
         ProductEntity productEntity = new ProductEntity();
         productEntity.setId(1L);
         productEntity.setProductName("DinhPham");
-        productEntity.setProductPrice(new BigDecimal(21.6));
+        productEntity.setProductPrice(new BigDecimal("21.6"));
         return productEntity;
     }
 
@@ -24,7 +24,7 @@ public class ProductRepositoryImpl implements ProductRepository {
         ProductEntity productEntity = new ProductEntity();
         productEntity.setId(1L);
         productEntity.setProductName("DinhPham");
-        productEntity.setProductPrice(new BigDecimal(21.6));
+        productEntity.setProductPrice(new BigDecimal("21.6"));
         return List.of(productEntity);
     }
 }
