@@ -14,11 +14,11 @@ public class ProductServiceImpl implements ProductService {
     private ProductRepository productRepository;
     @Override
     public ProductEntity createProduct(ProductEntity product) {
-        return productRepository.createProduct(product);
+        return null;
     }
 
     @Override
     public List<ProductEntity> findAllProducts() {
-        return productRepository.findAllProducts();
+        return null;
     }
 }
